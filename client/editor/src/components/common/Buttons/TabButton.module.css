@@ -1,0 +1,47 @@
+.button {
+  width: 100%;
+  min-height: 66px;
+  padding: 4px 2px 4px 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #679193;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+}
+
+  .button[data-phone='true'] {
+    margin-bottom: 0;
+    height: 50px;
+    border-radius: 0;
+  }
+
+  .button[data-selected='true'] {
+    background-color: #FFFFFF;
+    cursor: initial;
+    filter: grayscale(0%);
+  }
+
+  .button[data-selected='false']:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+  }
+
+.label {
+  color: #000000;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+  .label[data-phone='true'] {
+    font-size: 10px;
+  }
+
+.icon {
+  width: 90%;
+  border-radius: 0.2em;
+  background-color: #454545;
+}

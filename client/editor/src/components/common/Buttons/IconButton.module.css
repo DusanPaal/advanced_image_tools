@@ -1,0 +1,36 @@
+/* button container */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+  padding: 4px 12px;
+  font-size: 14px;
+  margin: 5px;
+  border: none;
+  height: 20pt;
+  background-color: #454545;
+  color: #8ECCC1;
+}
+
+  .button[data-disabled=false]:hover {
+    background-color: #2B5533;
+    cursor: pointer;
+  }
+
+  .button[data-disabled=true]:hover {
+    background-color: #7B1E1E;
+    cursor: not-allowed;
+  }
+
+/* button icon */
+.button > img {
+  height: 15pt;
+  width: 15pt;
+  margin-right: 5px;
+}
+
+/* button text */
+.button > label {
+  cursor: unset;
+}

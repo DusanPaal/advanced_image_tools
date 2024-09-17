@@ -1,0 +1,157 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Custom styles */
+#custom-jumbotron {
+    background-color: rgba(80, 80, 80, 0.97);
+    margin-top: 10pt;
+}
+
+#custom-jumbotron-header {
+    color: white;
+}
+
+#custom-jumbotron-lead {
+    color: #8ECCC1;
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.custom-app-name {
+    color: white;
+}
+
+.custom-app-description {
+    color: #8ECCC1;
+    text-align: justify;
+}
+
+.applet {
+    background-color: rgba(80, 80, 80, 0.97);
+    border-radius: 4pt;
+    margin: 10px;
+}
+
+#custom-footer-divider {
+    margin-bottom: 5px;
+}
+
+#custom-footer-text {
+    color: white;
+}
+
+#custom-footer {
+    background-color: rgba(80, 80, 80, 0.97);
+    border-radius: 2px;
+    text-align: center;
+}
+
+.user-account {
+    margin-top: 7pt;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    justify-items: center;
+}
+
+.user-name {
+    color: #9d9d9d;
+}
+
+.account-picture {
+    margin-left: 12pt;
+    opacity: 0.7;
+    width: 32px;
+    height: 32px;
+}
+
+    .account-picture:hover {
+        cursor: pointer;
+        opacity: 1.0;
+    }
+
+.low-contrast-text {
+    color: #9d9d9d;
+}
+
+abbr {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.contact-info-link {
+    color: #9d9d9d;
+}
+
+    .contact-info-link:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+.dark-bg {
+    background-color: #222222;
+    border-color: #9d9d9d;
+    color: #9d9d9d;
+}
+
+    .dark-bg:hover {
+        background-color: #4d4d4d;
+        color: #9d9d9d;
+    }
+
+
+.form-login {
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.login-message {
+    margin-top: 20pt;
+    color: white;
+}

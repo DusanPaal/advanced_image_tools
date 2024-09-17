@@ -1,0 +1,66 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+  border-radius: 8px;
+  position: relative;
+  min-height: 250px;
+}
+
+.mainContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: calc(100% - 50px);
+  box-sizing: border-box;
+  background-color: #0B0A0C;
+}
+
+  .mainContainer[data-phone] {
+    padding: 0;
+  }
+
+.canvasAndTools {
+  width: calc(100% - 80px);
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #2B2323;
+}
+
+  .canvasAndTools[data-displayed] {
+    overflow-y: unset;
+  }
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 60px;
+  padding: 10px;
+  gap: 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+}
+
+  .tabs[data-phone] {
+    display: flex;
+    padding: 0;
+  }
+
+.drawer {
+  transition: transform 200ms ease-in-out;
+  width: 92px;
+  height: 100%;
+  padding: 12px;
+}

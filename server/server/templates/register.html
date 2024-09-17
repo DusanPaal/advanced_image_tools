@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<form class="form-login" method="post">
+    <div class="form-group">
+        <label class="low-contrast-text" for="username">User name:</label>
+        <input type="text" class="form-control" name="username" id="username">
+    </div>
+    <div class="form-group">
+        <label class="low-contrast-text" for="email">Email:</label>
+        <input type="text" class="form-control" name="email" id="email">
+    </div>
+    <div class="form-group">
+        <label class="low-contrast-text" for="pwd">Password:</label>
+        <input type="password" class="form-control" name="password" id="pwd">
+    </div>
+    <div class="checkbox">
+        <label class="low-contrast-text"><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default dark-bg">Register</button>
+</form>
+
+{% endblock %}

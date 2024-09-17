@@ -1,0 +1,50 @@
+.window {
+    font-family: Roboto, sans-serif;
+    z-index: 3;
+    width: 30em;
+    height: 20em;
+    border-radius: 5px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    height: 10%;
+    color: #8eccc1;
+    background-color: #4b4b6d;
+    text-align: left;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 70%;
+}
+
+    .message[type='info'] {
+        background-color: #46B368;
+    }
+
+    .message[type='warning'] {
+        background-color: #ffDB57;
+    }
+
+    .message[type='error'] {
+        background-color: #B15F38;
+    }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: #8d8d8d;
+}

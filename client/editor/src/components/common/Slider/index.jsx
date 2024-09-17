@@ -1,0 +1,21 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StyledSlider } from './Slider.styled';
+
+const Slider = ({ onChange, ...props }) => {
+  return (
+    <StyledSlider
+      annotation=""
+      onChange={(_e, val) => (onChange ? onChange(val) : undefined)}
+      hideAnnotation
+      labelTooltip="auto"
+      {...props}
+    />
+  );
+};
+
+Slider.propTypes = {
+  onChange: PropTypes.func.isRequired,
+};
+
+export default Slider;

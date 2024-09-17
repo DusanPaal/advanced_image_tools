@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "server", "server\server.pyproj", "{DD888465-56CA-4A0D-AB71-5F63717A06CC}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "scanner", "client\scanner\scanner.esproj", "{031BF6AB-F153-4F9D-A4AC-7F06029583B9}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "editor", "client\editor\editor.esproj", "{A2333915-CC00-4EC1-BDB1-F5C0024DE697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD888465-56CA-4A0D-AB71-5F63717A06CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD888465-56CA-4A0D-AB71-5F63717A06CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD888465-56CA-4A0D-AB71-5F63717A06CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD888465-56CA-4A0D-AB71-5F63717A06CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031BF6AB-F153-4F9D-A4AC-7F06029583B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031BF6AB-F153-4F9D-A4AC-7F06029583B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031BF6AB-F153-4F9D-A4AC-7F06029583B9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{031BF6AB-F153-4F9D-A4AC-7F06029583B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031BF6AB-F153-4F9D-A4AC-7F06029583B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031BF6AB-F153-4F9D-A4AC-7F06029583B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A2333915-CC00-4EC1-BDB1-F5C0024DE697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2333915-CC00-4EC1-BDB1-F5C0024DE697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2333915-CC00-4EC1-BDB1-F5C0024DE697}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2333915-CC00-4EC1-BDB1-F5C0024DE697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2333915-CC00-4EC1-BDB1-F5C0024DE697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2333915-CC00-4EC1-BDB1-F5C0024DE697}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3747BE90-7886-41BB-9633-EE21BFA18346}
+	EndGlobalSection
+EndGlobal

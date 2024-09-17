@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron" id="custom-jumbotron">
+    <h1 id="custom-jumbotron-header">Experience the power of advanced image processing tools online!</h1>
+    <p class="lead" id="custom-jumbotron-lead">
+        Advanced Image Processing (AIP) tools are a set of web
+        applications that you can use to edit images or extract
+        text from images.
+    </p>
+</div>
+
+<div class="row custom-row">
+
+    <div class="col-md-4 col-lg-6 applet">
+        <h2 class="custom-app-name">Image editor</h2>
+        <p class="custom-app-description">
+            Image editor leverages classical and AI-based image processing techniques
+            to improve the appearance of images. You can also create new images from scratch.
+        </p>
+        <p><a class="btn btn-default" href="{{url_for('editor')}}">Start image editor &raquo;</a></p>
+    </div>
+
+    <div class="col-md-4 col-lg-6 applet">
+        <h2 class="custom-app-name">Image scanner</h2>
+        <p class="custom-app-description">
+            Image scanner uses Optical Character Recognition (OCR) to extract text from images.
+            You can upload an image and the scanner will return the text found in the image.
+        </p>
+        <p><a class="btn btn-default" href="{{url_for('scanner')}}">Start image scanner &raquo;</a></p>
+    </div>
+
+</div>
+
+{% endblock %}

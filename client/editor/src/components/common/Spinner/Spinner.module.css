@@ -1,0 +1,50 @@
+.wrapper {
+	background: #0B0A0C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	z-index: 11111;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	flex-direction: column;
+	user-select: none;
+}
+
+.spinner {
+	animation: rotate 1.2s linear infinite;
+	width: 50pt;
+	height: 50pt;
+}
+
+.path {
+	stroke: #679193;
+	stroke-linecap: round;
+	animation: dash 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* Dash animation for a loading effect */
+@keyframes dash {
+	0% {
+		stroke-dasharray: 1, 150;
+		stroke-dashoffset: 0;
+	}
+
+	50% {
+		stroke-dasharray: 90, 150;
+		stroke-dashoffset: -35;
+	}
+
+	100% {
+		stroke-dasharray: 90, 150;
+		stroke-dashoffset: -124;
+	}
+}
